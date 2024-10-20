@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="prem">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebay Customer Support</title>
+    <link rel="icon" type="image/x-icon" href="ebay.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+    </div>
+    <div class="container">
+        <div class="parent">
+            <div class="desc">
+                <h1 class="text" title="My Role">Ebay 24/7 Customer Support </h1>
+                <p>Feel free to get all your queries solved.</p>
+                <p>Click below button to start your chat.</p>
+                <button id="init" >START CHAT</button>
+            </div>
+            <div>
+                <img src="chatbot.png" class="bot-img">
+            </div>
+        </div>
+    </div>
+    <div id="test" style="position: fixed;top: 4rem;right: 3rem;display: none;">
+        <div class="child" id="chatbot">
+            <div class="header">
+                <div class="h-child">
+                    <img src="chatbot (1).png" alt="avatar" id="avatar" title="My Logo">
+                    <div>
+                        <span class="name" title="My Name"> Ebay Bot </span>
+                        <br>
+                        <span style="color:#1aaa00" title="I'm Online"> online </span>
+                    </div>
+                </div>
+                <div>
+                    <button class="refBtn"><i class="fa fa-refresh" onclick="initChat()"></i></button>
+                </div>
+            </div>
+            <div id="chat-box">
+                <div id="msg" class="msg"></div>
+            </div>
+            <div class="footer">
+                <span>Please select your related issue..!</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
